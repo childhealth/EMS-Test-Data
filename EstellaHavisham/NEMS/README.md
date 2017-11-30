@@ -14,7 +14,7 @@ Story and test data files created by NHS Digital as part of the NEMS project. La
 
 | Step | Description | Data |
 |---|---|---|
-| 1 |  | |
-| 2 |  | |
-| 3 |  | |
+| 1 | Estella is born. She is registered on PDS and issued an NHS Number. | Demographic data |
+| 2 |  Estella has her newborn hearing test. It is recorded on thhe national Screening for Hearing (S4H) service which then publishes the result to the NEMS. | Newborn Hearing event message |
+| 3 |  Estella has her newborn infant and physical exam (NIPE). It is recorded on the national NIPE SMaRT service which then publishes the result to the NEMS. | Physical Examination event message|
 | 4 |  | |
