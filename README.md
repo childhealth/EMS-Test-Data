@@ -52,3 +52,8 @@ Example:
 NEMS-A-9912003888-002.json
 ```
 
+## The Children
+
+Estella Havisham
+Jack Dawkins
+Mercy Pecksniff
