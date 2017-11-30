@@ -35,7 +35,7 @@ The test data files are stored in the project folder and use the follwing naming
 * Project prefix e.g. `NEMS`
 * Followed by a hyphen `-`
 * If the file represents a demographic record, followed by `D`
-* Else the file represents a FHIR event and the maturity level is indicated by:
+* Else the file represents a FHIR event and the specification maturity level the test file is based on is indicated by:
   * Experimental `X`
   * Alpha `A`
   * Beta `B`
