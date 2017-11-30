@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This example message is provided for illustrative purposes only. It has had no clinical validation. Where there are conflicts with the written message specification or schema, the specification or schema shall be considered to take precedence-->
+<Bundle xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/bundle.xsd">
+	<id value="b834aa84-c076-11e7-abc4-cec278b6b50a"/>
+	<meta>
+		<profile value="https://fhir.nhs.uk/StructureDefinition/DCH-Bundle-1"/>
+	</meta>
+	<type value="message"/>
+	<entry>
+		<fullUrl value="urn:uuid:260b43aa-b3df-11e7-abc4-cec278b6b50a"/>
+		<resource>
+			<MessageHeader>
+				<id value="260b43aa-b3df-11e7-abc4-cec278b6b50a"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/StructureDefinition/DCH-MessageHeader-1"/>
+				</meta>
+				<extension url="https://fhir.nhs.uk/StructureDefinition/Extension-DCH-MessageEventType-1">
+					<valueCodeableConcept>
+						<coding>
+							<system value="https://fhir.nhs.uk/DCH-MessageEventType-1"/>
+							<code value="new"/>
+							<display value="New event message"/>
+						</coding>
+					</valueCodeableConcept>
+				</extension>
+				<timestamp value="2017-11-30T10:00:00+00:00"/>
+				<event>
+					<system value="https://fhir.nhs.uk/DCH-ChildHealthEventType-1"/>
+					<code value="CH015"/>
+					<display value="Immunisation Administration"/>
+				</event>
+				<source>
+					<endpoint value="urn:nhs-uk:addressing:ods:B86056"/>
+				</source>
+				<responsible>
+					<reference value="urn:uuid:b834f976-c076-11e7-abc4-cec278b6b50a"/>
+					<display value="SHADWELL MEDICAL CENTRE"/>
+				</responsible>
+				<data>
+					<reference value="urn:uuid:260b4562-b3df-11e7-abc4-cec278b6b50a"/>
+				</data>
+			</MessageHeader>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:b834f976-c076-11e7-abc4-cec278b6b50a"/>
+		<resource>
+			<Organization>
+				<id value="b834f976-c076-11e7-abc4-cec278b6b50a"/>
+				<meta>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-DCH-Organization-1"/>
+				</meta>
+				<identifier>
+					<system value="https://fhir.nhs.uk/Id/ods-site-code"/>
+					<value value="B86056"/>
+				</identifier>
+				<name value="SHADWELL MEDICAL CENTRE"/>
+			</Organization>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:260b332e-b3df-11e7-abc4-cec278b6b50a"/>
+		<resource>
+			<Location>
+				<id value="260b332e-b3df-11e7-abc4-cec278b6b50a"/>
+				<meta>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-DCH-Location-1"/>
+				</meta>
+				<identifier>
+					<system value="https://fhir.nhs.uk/Id/ods-site-code"/>
+					<value value="B86056"/>
+				</identifier>
+				<name value="SHADWELL MEDICAL CENTRE"/>
+				<managingOrganization>
+					<reference value="urn:uuid:b834f976-c076-11e7-abc4-cec278b6b50a"/>
+					<display value="SHADWELL MEDICAL CENTRE"/>
+				</managingOrganization>
+			</Location>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:260b34aa-b3df-11e7-abc4-cec278b6b50a"/>
+		<resource>
+			<HealthcareService>
+				<id value="260b34aa-b3df-11e7-abc4-cec278b6b50a"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/StructureDefinition/DCH-HealthcareService-1"/>
+				</meta>
+				<identifier>
+					<system value="https://tools.ietf.org/html/rfc4122"/>
+					<value value="260b34aa-b3df-11e7-abc4-cec278b6b50a"/>
+				</identifier>
+				<providedBy>
+					<reference value="urn:uuid:b834f976-c076-11e7-abc4-cec278b6b50a"/>
+					<display value="SHADWELL MEDICAL CENTRE"/>
+				</providedBy>
+				<serviceType>
+					<type>
+						<coding>
+							<system value="https://fhir.nhs.uk/DCH-ProfessionalType-1"/>
+							<code value="M03"/>
+							<display value="General Medical Practitioner"/>
+						</coding>
+					</type>
+				</serviceType>
+				<location>
+					<reference value="urn:uuid:260b332e-b3df-11e7-abc4-cec278b6b50a"/>
+					<display value="SHADWELL MEDICAL CENTRE"/>
+				</location>
+			</HealthcareService>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:260b4ad0-b3df-11e7-abc4-cec278b6b50a"/>
+		<resource>
+			<Patient>
+				<id value="260b4ad0-b3df-11e7-abc4-cec278b6b50a"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/StructureDefinition/CareConnect-DCH-Patient-1"/>
+				</meta>
+				<identifier>
+					<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1">
+						<valueCodeableConcept>
+							<coding>
+								<system value="https://fhir.hl7.org.uk/CareConnect-NHSNumberVerificationStatus-1"/>
+								<code value="01"/>
+								<display value="Number present and verified"/>
+							</coding>
+						</valueCodeableConcept>
+					</extension>
+					<system value="https://fhir.nhs.uk/Id/nhs-number"/>
+					<value value="9912003888"/>
+				</identifier>
+				<name>
+					<use value="usual"/>
+					<family value="DAWKINS"/>
+					<given value="Jack"/>
+				</name>
+				<gender value="male"/>
+				<birthDate value="2017-10-02">
+					<extension url="http://hl7.org/fhir/StructureDefinition/patient-birthTime">
+						<valueDateTime value="2017-10-02T20:12:00+00:00"/>
+					</extension>
+				</birthDate>
+				<address>
+					<use value="home"/>
+					<line value="4 Sandmoor Drive"/>
+					<city value="LEEDS"/>
+					<postalCode value="LS17 7DF"/>
+				</address>
+			</Patient>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:260b4562-b3df-11e7-abc4-cec278b6b50a"/>
+		<resource>
+			<Encounter>
+				<id value="260b4562-b3df-11e7-abc4-cec278b6b50a"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/StructureDefinition/CareConnect-DCH-Encounter-1"/>
+				</meta>
+				<identifier>
+					<system value="https://tools.ietf.org/html/rfc4122"/>
+					<value value="260b4562-b3df-11e7-abc4-cec278b6b50a"/>
+				</identifier>
+				<status value="finished"/>
+				<type>
+					<coding>
+						<system value="https://fhir.nhs.uk/DCH-ChildHealthEncounterType-1"/>
+						<code value="8 week immunisations"/>
+						<display value="8 week immunisations"/>
+					</coding>
+				</type>
+				<patient>
+					<reference value="urn:uuid:260b4ad0-b3df-11e7-abc4-cec278b6b50a"/>
+					<display value="DAWKINS, Jack"/>
+				</patient>
+				<participant>
+					<type>
+						<coding>
+							<system value="http://hl7.org/fhir/v3/ParticipationType"/>
+							<code value="PPRF"/>
+							<display value="primary performer"/>
+						</coding>
+					</type>
+					<individual>
+						<reference value="urn:uuid:260b4cb0-b3df-11e7-abc4-cec278b6b50a"/>
+						<display value="JONES, Jane"/>
+					</individual>
+				</participant>
+				<period>
+					<start value="2017-11-30T09:00:00+00:00"/>
+				</period>
+				<location>
+					<location>
+						<reference value="urn:uuid:260b332e-b3df-11e7-abc4-cec278b6b50a"/>
+						<display value="SHADWELL MEDICAL CENTRE"/>
+					</location>
+				</location>
+				<serviceProvider>
+					<reference value="urn:uuid:b834f976-c076-11e7-abc4-cec278b6b50a"/>
+					<display value="SHADWELL MEDICAL CENTRE"/>
+				</serviceProvider>
+			</Encounter>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:b834a7dc-c076-11e7-abc4-cec278b6b50a"/>
+		<resource>
+			<Immunization>
+				<id value="b834a7dc-c076-11e7-abc4-cec278b6b50a"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/StructureDefinition/CareConnect-DCH-Immunization-1"/>
+				</meta>
+				<identifier>
+					<system value="https://tools.ietf.org/html/rfc4122"/>
+					<value value="b834a7dc-c076-11e7-abc4-cec278b6b50a"/>
+				</identifier>
+				<status value="completed"/>
+				<date value="2017-11-30"/>
+				<vaccineCode>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="34765811000001105"/>
+						<display value="Infanrix Hexa vaccine powder and suspension for suspension for injection 0.5ml pre-filled syringes"/>
+					</coding>
+				</vaccineCode>
+				<patient>
+					<reference value="urn:uuid:260b4ad0-b3df-11e7-abc4-cec278b6b50a"/>
+					<display value="DAWKINS, Jack"/>
+				</patient>
+				<wasNotGiven value="false"/>
+				<reported value="false"/>
+				<encounter>
+					<reference value="urn:uuid:260b4562-b3df-11e7-abc4-cec278b6b50a"/>
+				</encounter>
+			</Immunization>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:260b4cb0-b3df-11e7-abc4-cec278b6b50a"/>
+		<resource>
+			<Practitioner>
+				<id value="260b4cb0-b3df-11e7-abc4-cec278b6b50a"/>
+				<meta>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-DCH-Practitioner-1"/>
+				</meta>
+				<identifier>
+					<system value="http://fhir.nhs.net/Id/sds-user-id"/>
+					<value value="C24682468"/>
+				</identifier>
+				<name>
+					<family value="JONES"/>
+					<given value="Jane"/>
+				</name>
+				<practitionerRole>
+					<managingOrganization>
+						<reference value="urn:uuid:b834f976-c076-11e7-abc4-cec278b6b50a"/>
+						<display value="SHADWELL MEDICAL CENTRE"/>
+					</managingOrganization>
+					<role>
+						<coding>
+							<system value="http://fhir.nhs.net/ValueSet/sds-job-role-name-1"/>
+							<code value="R0700"/>
+							<display value="Community Nurse"/>
+						</coding>
+					</role>
+				</practitionerRole>
+			</Practitioner>
+		</resource>
+	</entry>
+</Bundle>
