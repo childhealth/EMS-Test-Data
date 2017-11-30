@@ -1,6 +1,6 @@
 # EMS Test Data
 ## Introduction
-This is a repository to store test data to help developers of Event Management Systems (EMS).
+This is a repository to store test data to help developers of Event Management Services (EMS).
 
 The data represents fictional health events in the lives of a set of fictional children.
 
@@ -13,4 +13,4 @@ Each child has a seperate folder within the repository bearing their name. For e
 ```
 /JackDawkins
 ```
-Within a child's folder there will be a folder named `NEMS`. This will contain
+Within a child's folder there will be a folder named `NEMS`. This will contain the child's story and associated test data files as created by NHS Digital for the National Events Management Service (NEMS). There maybe additional folders which relate to other EMS development projects, for example the Lancashire Local Events Management Service (LEMS) - `LANCS`. These projects
