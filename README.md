@@ -24,3 +24,22 @@ The following EMS projects have contributed test data to the repository:
 | NHS Digital NEMS       | NEMS   |
 | Lancashire and South Cumbria STP LEMS | LANCS  |
 
+Within each project folder there will be a `README.md` markdown file that:
+* Describes the source of the test data e.g. copy of NEMS test data but customised to use provider identities within a regional boundary
+* Identifies the child i.e. name, gender, NHS number and a mutable DOB
+* Details the child's story
+
+The story consists of a sequence of chronological steps. Each step has a description and a set of associated test data files.
+
+The test data files are stored in the project folder and use the follwing naming convention:
+* Project prefix e.g. `NEMS`
+* Followed by a hyphen `-`
+* If the file represents a demographic record, followed by `D`
+* Else the file represents a FHIR event and the FHIR version is indicated by:
+** Experimental `X`
+** Alpha `A`
+** Beta `B`
+** Release Candidate `R`
+** Live `L`
+* Followed by a hyphen `-`
+*
