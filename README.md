@@ -18,4 +18,8 @@ Within a child's folder there will be a folder named `NEMS`. This will contain t
 There maybe additional folders which relate to other EMS development projects, for example the Lancashire Local Events Management Service (LEMS) - `LANCS`. These projects may have taken copies of the NEMS story and test data files, and customised them. These projects may have provided their own story and test data files. These projects may have done a combination of the two.
 
 The following EMS projects have contributed test data to the repository:
+| Project | Folder Name  |
+|----------|-------|
+| NHS Digital NEMS       | NEMS   |
+| Lancashire and South Cumbria STP LEMS | LANCS  |
 
