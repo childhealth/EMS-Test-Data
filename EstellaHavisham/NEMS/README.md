@@ -4,8 +4,6 @@ Story and test data files created by NHS Digital as part of the NEMS project. La
 ## Child
 
 | Name | Estella Havisham |
-|----|-----|
-| Name | Estella Havisham |
 | Gender | Female |
 | DOB | 28/08/2017 |
 | NHS Number | 9912003896 |
