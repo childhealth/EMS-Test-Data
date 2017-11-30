@@ -36,10 +36,10 @@ The test data files are stored in the project folder and use the follwing naming
 * Followed by a hyphen `-`
 * If the file represents a demographic record, followed by `D`
 * Else the file represents a FHIR event and the FHIR version is indicated by:
-** Experimental `X`
-** Alpha `A`
-** Beta `B`
-** Release Candidate `R`
-** Live `L`
+*  Experimental `X`
+*  Alpha `A`
+*  Beta `B`
+*  Release Candidate `R`
+*  Live `L`
 * Followed by a hyphen `-`
 *
