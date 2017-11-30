@@ -18,4 +18,4 @@ Story and test data files created by NHS Digital as part of the NEMS project. La
 | 2 |  Estella has her newborn hearing test. It is recorded on thhe national Screening for Hearing (S4H) service which then publishes the result to the NEMS. | Newborn Hearing event message |
 | 3 |  Estella has her newborn infant and physical exam (NIPE). It is recorded on the national NIPE SMaRT service which then publishes the result to the NEMS. | Physical Examination event message |
 | 4 |  Estella registers with New Croft Surgery GP. | Demographic data |
-| 5 |  Estella has her 12 week 6-in-1 vaccine administered by the health visitor (Leeds Community Healthcare NHS Trust), which publishes he event to the NEMS | Immunisation Administration event message |
+| 5 |  Estella has her 12 week 6-in-1 vaccine administered by the health visitor (Leeds Community Healthcare NHS Trust), which publishes he event to the NEMS | [Immunisation Administration event message](https://github.com/childhealth/EMS-Test-Data/blob/master/EstellaHavisham/NEMS/NEMS-A-9912003896-001.xml) |
