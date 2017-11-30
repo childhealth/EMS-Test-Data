@@ -42,4 +42,13 @@ The test data files are stored in the project folder and use the follwing naming
   * Release Candidate `R`
   * Live `L`
 * Followed by a hyphen `-`
-*
+* Followed by NHS number (no spaces) `9912003888`
+* Followed by hyphen `-`
+* Followed by two digit (with leading zeros) sequence number `002`
+* Followed by file type extension - `.json` or `.xml`
+
+Example:
+```
+NEMS-A-9912003888-002.json
+```
+
