@@ -10,3 +10,7 @@ The test data files are either:
 
 ## Repository Structure
 Each child has a seperate folder within the repository bearing their name. For example:
+```
+/JackDawkins
+```
+Within a child's folder there will be a folder named `NEMS`. This will contain
