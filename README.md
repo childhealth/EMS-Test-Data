@@ -54,6 +54,6 @@ NEMS-A-9912003888-002.json
 
 ## The Children
 
-[Estella Havisham](https://github.com/childhealth/EMS-Test-Data/blob/master/EstellaHavisham/NEMS/README.md)
-[Jack Dawkins](https://github.com/childhealth/EMS-Test-Data/blob/master/JackDawkins/NEMS/README.md)
-[Mercy Pecksniff](https://github.com/childhealth/EMS-Test-Data/blob/master/MercyPecksniff/NEMS/README.md)
+* [Estella Havisham](https://github.com/childhealth/EMS-Test-Data/blob/master/EstellaHavisham/NEMS/README.md)
+* [Jack Dawkins](https://github.com/childhealth/EMS-Test-Data/blob/master/JackDawkins/NEMS/README.md)
+* [Mercy Pecksniff](https://github.com/childhealth/EMS-Test-Data/blob/master/MercyPecksniff/NEMS/README.md)
