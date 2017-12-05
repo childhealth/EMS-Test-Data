@@ -68,9 +68,9 @@ NEMS-A-9912003888-002.json
 * [Luke Honeythunder](https://github.com/childhealth/EMS-Test-Data/blob/master/LukeHoneythunder/NEMS/README.md)
 * [Martin Chuzzlewit](https://github.com/childhealth/EMS-Test-Data/blob/master/MartinChuzzlewit/NEMS/README.md)
 * [Mercy Pecksniff](https://github.com/childhealth/EMS-Test-Data/blob/master/MercyPecksniff/NEMS/README.md)
-* Peter Magnus
-* Richard Carstone
-* Rosa Dartle
-* Tom Gradgrind
-* Uriah Heep
-* William Guppy
+* [Peter Magnus](https://github.com/childhealth/EMS-Test-Data/blob/master/PeterMagnus/NEMS/README.md)
+* [Richard Carstone](https://github.com/childhealth/EMS-Test-Data/blob/master/RichardCarstone/NEMS/README.md)
+* [Rosa Dartle](https://github.com/childhealth/EMS-Test-Data/blob/master/RosaDartle/NEMS/README.md)
+* [Tom Gradgrind](https://github.com/childhealth/EMS-Test-Data/blob/master/TomGradgrind/NEMS/README.md)
+* [Uriah Heep](https://github.com/childhealth/EMS-Test-Data/blob/master/UriahHeep/NEMS/README.md)
+* [William Guppy](https://github.com/childhealth/EMS-Test-Data/blob/master/WilliamGuppy/NEMS/README.md)
