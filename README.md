@@ -57,6 +57,7 @@ NEMS-A-9912003888-002.json
 * Amy Dorrit
 * Bertha Plummer
 * Charley Bates
+* Clara Peggotty
 * [Estella Havisham](https://github.com/childhealth/EMS-Test-Data/blob/master/EstellaHavisham/NEMS/README.md)
 * Grace Jeddler
 * [Jack Dawkins](https://github.com/childhealth/EMS-Test-Data/blob/master/JackDawkins/NEMS/README.md)
