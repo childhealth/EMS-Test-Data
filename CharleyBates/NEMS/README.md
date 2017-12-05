@@ -6,7 +6,7 @@ Story and test data files created by NHS Digital as part of the NEMS project. La
 | | |
 |---|---|
 | Name | Charley Bates |
-| Gender | Female |
+| Gender | Male |
 | DOB |  |
 | NHS Number |  |
 
