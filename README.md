@@ -54,10 +54,10 @@ NEMS-A-9912003888-002.json
 
 ## The Children
 
-* Amy Dorrit
-* Bertha Plummer
-* Charley Bates
-* Clara Peggotty
+* [Amy Dorrit](https://github.com/childhealth/EMS-Test-Data/blob/master/AmyDorrit/NEMS/README.md)
+* [Bertha Plummer](https://github.com/childhealth/EMS-Test-Data/blob/master/BerthaPlummer/NEMS/README.md)
+* [Charley Bates](https://github.com/childhealth/EMS-Test-Data/blob/master/CharleyBates/NEMS/README.md)
+* [Clara Peggotty](https://github.com/childhealth/EMS-Test-Data/blob/master/ClaraPeggotty/NEMS/README.md)
 * [Estella Havisham](https://github.com/childhealth/EMS-Test-Data/blob/master/EstellaHavisham/NEMS/README.md)
 * Grace Jeddler
 * [Jack Dawkins](https://github.com/childhealth/EMS-Test-Data/blob/master/JackDawkins/NEMS/README.md)
