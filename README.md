@@ -54,6 +54,15 @@ NEMS-A-9912003888-002.json
 
 ## The Children
 
+* Amy Dorrit
+* Bertha Plummer
+* Charley Bates
 * [Estella Havisham](https://github.com/childhealth/EMS-Test-Data/blob/master/EstellaHavisham/NEMS/README.md)
 * [Jack Dawkins](https://github.com/childhealth/EMS-Test-Data/blob/master/JackDawkins/NEMS/README.md)
+* Martin Chuzzlewit
 * [Mercy Pecksniff](https://github.com/childhealth/EMS-Test-Data/blob/master/MercyPecksniff/NEMS/README.md)
+* Richard Carstone
+* Rosa Dartle
+* Tom Gradgrind
+* Uriah Heep
+* William Guppy
