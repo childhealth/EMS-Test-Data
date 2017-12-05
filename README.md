@@ -58,9 +58,16 @@ NEMS-A-9912003888-002.json
 * Bertha Plummer
 * Charley Bates
 * [Estella Havisham](https://github.com/childhealth/EMS-Test-Data/blob/master/EstellaHavisham/NEMS/README.md)
+* Grace Jeddler
 * [Jack Dawkins](https://github.com/childhealth/EMS-Test-Data/blob/master/JackDawkins/NEMS/README.md)
+* Jacob Marley
+* John Jarndyce
+* Kate Nickleby
+* Lizzie Hexam
+* Luke Honeythunder
 * Martin Chuzzlewit
 * [Mercy Pecksniff](https://github.com/childhealth/EMS-Test-Data/blob/master/MercyPecksniff/NEMS/README.md)
+* Peter Magnus
 * Richard Carstone
 * Rosa Dartle
 * Tom Gradgrind
